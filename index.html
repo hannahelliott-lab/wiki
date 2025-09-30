@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Example — Mock Wikipedia Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="site-brand">
+      <a href="#" class="logo">Wikipedia</a>
+      <form class="search" action="#" onsubmit="return false;">
+        <input placeholder="Search" aria-label="Search">
+      </form>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1 class="page-title">Example Subject <span class="birth-death"> (born 1990)</span></h1>
+
+    <div class="lede-and-infobox">
+      <article class="lede">
+        <p><strong>Example Subject</strong> is a fictional entry used to demonstrate how a Wikipedia-style page can be created and hosted using GitHub Pages. This lead paragraph summarizes the most notable facts and sets the tone for the rest of the article.</p>
+      </article>
+
+      <aside class="infobox" aria-label="Infobox">
+        <img src="assets/photo.jpg" alt="Portrait" class="infobox-image">
+        <div class="infobox-row"><b>Born</b><span>January 1, 1990</span></div>
+        <div class="infobox-row"><b>Occupation</b><span>Producer · Product Lead</span></div>
+        <div class="infobox-row"><b>Nationality</b><span>American</span></div>
+        <div class="infobox-row"><b>Awards</b><span>Example Prize (2024)</span></div>
+      </aside>
+    </div>
+
+    <section id="career">
+      <h2>Career</h2>
+      <p>Short paragraph describing career highlights, projects, roles, and other notable activities. Use clear, encyclopedic tone. Avoid promotional language.</p>
+      <p>For inline citations: use <code>&lt;sup&gt;[1]&lt;/sup&gt;</code> and add a matching reference in the References section below.</p>
+    </section>
+
+    <section id="works">
+      <h2>Selected works</h2>
+      <ul>
+        <li>Project A (2022) — brief note</li>
+        <li>Project B (2023) — brief note</li>
+      </ul>
+    </section>
+
+    <section id="references">
+      <h2>References</h2>
+      <ol>
+        <li><a href="#">Source name — article title, publisher, date</a></li>
+        <li><a href="#">Another source</a></li>
+      </ol>
+    </section>
+
+    <hr>
+
+    <footer class="page-footer">
+      <div class="categories">Categories: <a>Mock pages</a>, <a>Example</a></div>
+      <div class="license">This is a mock page for demonstration purposes.</div>
+    </footer>
+  </main>
+</body>
+</html>
